@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+body {
+  background-color: #9966cc;
+  color: #e1f8f5;
+  font-size: 16px;
+  font-weight: normal;
+  font-family: "Nunito", sans-serif;
+}
+
+.container {
+  max-width: 750px;
+  margin: auto;
+}
+
+a {
+  color: #8cbed6;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.avatar {
+  width: 200px;
+  border-radius: 28px;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 025);
+}
+
+.info {
+  margin-bottom: 10px;
+  display: flex;
+}
+
+@media (max-width: 700px) {
+  .info {
+    text-align: center;
+    display: block;
+  }
+}
+
+.info-text {
+  margin-left: 20px;
+}
+
+.info-text h4 {
+  margin-bottom: 10px;
+}
+
+.info p {
+  color: #231f20;
+  margin: 0;
+  text-decoration: none;
+}
+
+.bg-blue {
+  background-color: #50c7c7;
+}
+
+.bg-green {
+  background-color: #50c785;
+}
+
+.card {
+  padding: 15px 20px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.list li {
+  margin-bottom: 10px;
+}
+
+.table {
+  width: 100%;
+}
+
+.table td {
+  padding: 10px 0;
+}
+
+.table td {
+  border-bottom: 1px solid black;
+}
+
+.table td:nth-child(2),
+.table td:nth-child(3) {
+  color: #231f20;
+}
+
+.contact h2 {
+  text-align: center;
+}
+
+.form-group label {
+  display: block;
+  font-size: 14px;
+  color: #231f20;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  background-color: transparent;
+  border-bottom: 1px solid #231f20;
+  color: #231f20;
+  padding: 15px 0 10px;
+  outline: none;
+  font-family: inherit;
+}
+
+.row {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.row > .form-group {
+  width: 50%;
+}
+
+.row > .form-group:first-child {
+  margin-right: 20px;
+}
+
+.btn {
+  background-color: #231f20;
+  color: #fff;
+  padding: 15px 20px;
+  border: none;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}

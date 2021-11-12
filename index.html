@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CV</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="info">
+      <img src="avatar.jpg" alt="Моя фотография" class="avatar">
+
+      <div class="info-text">
+        <h1>Игорь Молчан</h1>
+        <p><em>Студент ЧДТУ</em></p>
+        <p><strong>Я люблю путешествовать, заниматься спортом и программировать</strong></p>
+
+        <h4>Мои социальные сети</h4>
+        <a href="https://instagram.com/mol_igor_" target="_blank">Instagram</a>
+        |
+        <a href="https://t.me/Igor_Mol" target="_blank">Telegram</a>
+      </div>
+    </div>
+
+
+    <div class="card bg-blue">
+      <h2>Мои хобби</h2>
+      <ol class="list">
+        <li>Спорт: футбол, настольный теннис, волейбол</li>
+        <li>Видеоигры</li>
+        <li>Путешествия</li>
+      </ol>
+    </div>
+
+    <div class="card bg-green">
+      <h2>Опыт работы</h2>
+      <table class="table">
+        <tr>
+          <td>Компания</td>
+          <td>Должность</td>
+          <td>Год</td>
+        </tr>
+        <tr>
+          <td>Компьтерная академия ШАГ</td>
+          <td>Преподаватель</td>
+          <td>2021</td>
+        </tr>
+        <tr>
+          <td>Стартап - UrGuide</td>
+          <td>Frontend Developer</td>
+          <td>2020</td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="contact">
+      <h2>Связаться со мной</h2>
+
+      <form action="/">
+        <div class="row">
+          <div class="form-group">
+            <label for="name">Ваше имя:</label>
+            <input type="text" id="name" placeholder="Введите ваше имя...">
+          </div>
+
+          <div class="form-group">
+            <label for="email">Ваш email:</label>
+            <input type="email" id="email" placeholder="Введите ваш email...">
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="text">Ваше сообщение:</label>
+          <br>
+          <textarea id='text' cols="15" rows="2"></textarea>
+        </div>
+
+        <input class="btn" type="submit" value="Связаться!">
+      </form>
+    </div>
+  </div>
+</body>
+
+</html>
